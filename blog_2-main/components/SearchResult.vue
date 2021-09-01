@@ -53,7 +53,7 @@ export default {
       },
 
       link: [{ rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' },...i18nHead.link],
-      title: `Buscando por: ${search}`,
+      title: `Buscando por: ${this.search}`,
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -77,15 +77,43 @@ export default {
 
       await this.$axios.post('/article/search', { query: this.search }).then((result) => {
 
-        console.log(result);
-
         if (result != undefined) {
           this.data = result['data']['data']
           this.error = undefined
+        } else {
+          switch (this.language) {
+            case "br":
+              this.error = "O artigo " + "'" + this.search + "'" + " não pôde ser encontrado!"
+              break;
+            case "en":
+              this.error = "The article " + "'" + this.search + "'" + " could not be found."
+              break;
+            case "es":
+              this.error = "No se pudo encontrar el artículo " + "'" + this.search + "'"
+              break;
+            default:
+              this.error = "O artigo " + "'" + this.search + "'" + " não pôde ser encontrado!"
+              break;
+          }
         }
 
       }).catch(() => {
-        this.error = "O artigo " + "'" + this.search + "'" + " não pôde ser encontrado!"
+
+        switch (this.language) {
+          case "br":
+            this.error = "O artigo " + "'" + this.search + "'" + " não pôde ser encontrado!"
+            break;
+          case "en":
+            this.error = "The article " + "'" + this.search + "'" + " could not be found."
+            break;
+          case "es":
+            this.error = "No se pudo encontrar el artículo " + "'" + this.search + "'"
+            break;
+          default:
+            this.error = "O artigo " + "'" + this.search + "'" + " não pôde ser encontrado!"
+            break;
+        }
+
         this.data = undefined
       })
 
