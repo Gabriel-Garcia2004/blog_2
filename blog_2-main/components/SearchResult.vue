@@ -37,7 +37,7 @@ export default {
     return {
       data: undefined,
       error: undefined,
-      language: this.$nuxt.$i18n.locale,
+      language: this.$nuxt.$i18n.locale || 'br',
       search: this.$route.params.query
     }
   },
@@ -75,7 +75,7 @@ export default {
   methods: {
     async executeData(){
 
-      await this.$axios.post('/article/search', { query: this.search }).then((result) => {
+      await this.$axios.post('/article/search', { query: this.search, lang: this.language }).then((result) => {
 
         if (result != undefined) {
           this.data = result['data']['data']

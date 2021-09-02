@@ -97,7 +97,11 @@ export default {
         }
 
         this.title = data['data']['data'][0]['title']
+        this.titleEn = data['data']['data'][0]['titleEn']
+        this.titleEs = data['data']['data'][0]['titleEs']
         this.short = data['data']['data'][0]['short']
+        this.shortEn = data['data']['data'][0]['shortEn']
+        this.shortEs = data['data']['data'][0]['shortEs']
         this.image = data['data']['data'][0]['image']
         this.date = moment(data['data']['data'][0]['createdAt']).format('DD/MM/YYYY')
         this.slug = data['data']['data'][0]['slug']
