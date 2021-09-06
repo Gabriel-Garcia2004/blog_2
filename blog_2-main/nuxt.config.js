@@ -25,7 +25,7 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // './generator'
+    '@modules/generator'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -85,6 +85,7 @@ export default {
       }
     ]
   ],
+  
   plugins: [{ src: '~plugins/leaflet.js', ssr: false }],
 
   sitemap: {
