@@ -2,7 +2,7 @@
   <section class="info-bar">
     <div class="info-bar__container">
       <figure class="menu-mobile-img__container">
-        <NuxtLink to="/" class="menu-mobile__link">
+        <NuxtLink :to="localePath('/')" class="menu-mobile__link">
           <img
             class="menu-mobile__img"
             src="~/assets/icon.svg"
@@ -89,7 +89,7 @@
             </li>
 
             <li class="menu__card" v-for="category in data" :key="category.id">
-               <NuxtLink class="menu__link" :to="localePath('/')">
+               <NuxtLink class="menu__link" :to="localePath(`/blog/category/${category.id}`)">
             <img class="menu__img" alt="Ilustração do Dermatologista, Miguel Ceccarelli" :src="category.image">
 
                 <h2 class="menu__text">{{ category.title }}</h2>

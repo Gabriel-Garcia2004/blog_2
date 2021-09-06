@@ -83,6 +83,8 @@
               this.error = data['data']['data']
             }
 
+            console.log(data['data']['data']);
+
             this.data = data['data']['data']
         })
 
