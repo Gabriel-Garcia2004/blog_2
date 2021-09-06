@@ -15,11 +15,13 @@
     "@nuxtjs/sitemap": "^2.4.0",
     "bootstrap": "^5.1.0",
     "core-js": "^3.15.1",
+    "fortawesome": "^0.0.1-security",
     "jsdom-global": "^3.0.2",
     "leaflet": "^1.7.1",
     "moment": "^2.29.1",
     "nuxt": "^2.15.7",
     "nuxt-leaflet": "^0.0.25",
+    "vue-clickaway": "^2.2.2",
     "vue2-leaflet": "^2.7.1"
   }
 }
