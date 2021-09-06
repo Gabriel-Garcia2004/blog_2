@@ -3,15 +3,11 @@
     <div class="about__content">
       <img src="~/assets/miguel.png" class="about__img" alt="Dermatologista - Miguel Ceccarelli" />
       <div class="about__text-container">
-        <h2 class="about__title">Sobre mim</h2>
+        <h2 class="about__title">{{ $t('aboutMe') }}</h2>
         <p class="about__text">
-          Olá, sou dermatologista (CRMRJ 52-0109245-6 / RQE 34414) e estou
-          especializado em doenças das unhas e procedimentos de estética. Atendo
-          presencialmente pacientes no meu consultório no Rio de Janeiro, e por
-          telemedicina no Brasil e fora do país (atendo em português, espanhol e
-          inglês).
+{{ $t('lanAboutText') }}
         </p>
-        <NuxtLink :to="localePath({ name: 'blog-category-id', params: { id: 1 } })" class="about__link">Saber mais →</NuxtLink>
+        <NuxtLink :to="localePath({ name: 'blog-category-id', params: { id: 1 } })" class="about__link">{{ $t('lanAboutLink') }}</NuxtLink>
       </div>
     </div>
     <div class="about__personal-data">

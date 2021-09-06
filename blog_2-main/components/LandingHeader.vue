@@ -3,14 +3,22 @@
     <div class="header__content">
       <ul class="header__item">
         <li class="header__list">
-          <a href="#about" class="header__link">Sobre</a>
+          <a href="#about" class="header__link">{{ $t('about') }}</a>
         </li>
         <li class="header__list">
-          <a href="#blog" class="header__link">Blog</a>
+          <a href="#blog" class="header__link">{{$t('blog')}}</a>
         </li>
         <li class="header__list">
-          <a href="#appointment" class="header__link">Contato</a>
+          <a href="#appointment" class="header__link">{{ $t('contact') }}</a>
         </li>
+        <div class="translate">
+        <nuxt-link class="translate__lang"
+  v-for="locale in availableLocales"
+  :key="locale.code"
+  :to="switchLocalePath(locale.code)">{{ locale.name }}</nuxt-link>
+        </div>
+
+
       </ul>
       <NuxtLink to="/blog/home">
       <img
@@ -20,18 +28,17 @@
       />
       </NuxtLink>
       <div class="header__infos">
-        <h1 class="header__title">Dermatologista <br> </h1>
-        <h1 class="header__title">Dr. Miguel Ceccarelli</h1>
-        <h2 class="header__subtitle">no Rio de Janeiro</h2>
-        <p class="header__text">
-          Cuidar das unhas e pele é cuidar de si mesmo, agende uma consulta e vamos resgatar o que há de melhor em você.
+        <h1 class="header__title"><br> {{$t('lanHTitle1')}}</h1>
+        <h1 class="header__title">{{$t('dermatologist')}}</h1>
+        <h2 class="header__subtitle">{{$t('lanHTitle2')}}</h2>
+        <p class="header__text" >
+          {{$t('headerText')}}
         </p>
         <a
           title="agendar consulta com Dr. Miguel Ceccarelli"
           href="#appointment"
           class="header__button"
-          >Agendar</a
-        >
+          >{{ $t('headerButton')}}</a>
       </div>
     </div>
     <div class="header__illustration">
@@ -92,7 +99,20 @@
 <script>
 
 export default {
-  component: true
+  component: true,
+      head() {
+      return {
+
+        link: [{ rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' }],
+    script: [{ src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js' }],
+
+          }
+    },
+  computed: {
+  availableLocales () {
+    return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
+  }
+}
 }
 
 </script>
@@ -230,6 +250,25 @@ min-width: 200px;
 .header__link--img:hover {
   opacity: 0.6;
 }
+.translate{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+}
+.translate__lang{
+  color: #fff;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 0em;
+  text-align: center;
+  position: relative;
+  top: 15px;
+  left: 15px;
+  z-index: 100;
+}
 @media (min-width: 768px) {
   .header {
     background: #404041;
@@ -270,6 +309,7 @@ min-width: 200px;
   }
   .header__img {
     position: initial;
+
   }
 }
 @media (min-width: 1024px) {

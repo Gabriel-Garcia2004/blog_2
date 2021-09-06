@@ -71,14 +71,49 @@ export default {
 
           messages: {
             br: {
-              greeting: 'Olá mundo!'
+              about: 'Sobre',
+              blog: 'Blog',
+              contact: 'Contato',
+              lanHTitle1: 'Dr. Miguel Ceccarelli',
+              dermatologist: 'Dermatologista',
+              lanHTitle2: 'no Rio de Janeiro',
+              headerText: 'Cuidar das unhas e pele é cuidar de si mesmo, agende uma consulta e vamos resgatar o que há de melhor em você.',
+              headerButton: 'Agendar',
+              aboutMe: 'Sobre mim',
+              lanAboutText:  'Olá, sou dermatologista (CRMRJ 52-0109245-6 / RQE 34414) e estou especializado em doenças das unhas e procedimentos de estética. Atendo presencialmente pacientes no meu consultório no Rio de Janeiro, e por telemedicina na Brasil e fora do país (atendo em português, espanhol e inglês).',
+              lanAboutLink: 'Saber mais →'
             },
 
             en: {
-              greeting: 'Hello world!'
+              about: 'About',
+              blog: 'Blog',
+              contact: 'Contact',
+              lanHTitle1: 'Dr. Miguel Ceccarelli',
+              dermatologist: 'Dermatologist',
+              lanHTitle2: 'in Rio de Janeiro',
+              headerText: 'Taking care of your skin and nails, because if there was ever a time to be kind to yourself, it is now. Allow me to be your guide to the clear and healthy skin and nails you have always wanted.',
+              headerButton: 'Schedule',
+              aboutMe: 'About me',
+              lanAboutText: 'Hello, I am a board-certified dermatologist by the Brazilian Society of Dermatology (CRMRJ 52-0109245-6 / RQE 34414) specialized in skin, hair, and nail diseases, as well as cosmetic procedures. My medical and aesthetics practice is located in Rio de Janeiro. I am passionate about giving an appropriately qualified experience. I can communicate effectively in English, Spanish and Portuguese.',
+              lanAboutLink: 'to know more →'
+
+
+
             },
             es: {
-              greeting: '¡Hola mundo!'
+              about: 'Sobre',
+              blog: 'Blog',
+              contact: 'Contacto',
+              lanHTitle1: 'Dr. Miguel Ceccarelli',
+              dermatologist: 'Dermatólogo',
+              lanHTitle2: 'en Rio de Janeiro',
+              headerText: 'Cuidamos de tu piel, uñas y cabellos. Permítame ser su guía para una piel saludable y feliz.',
+              headerButton: 'Programar',
+              aboutMe: 'Sobre mí',
+              lanAboutText: 'Hola, soy un dermatólogo certificado por la Sociedad Brasileña de Dermatología (CRMRJ 52-0109245-6 / RQE 34414) y estoy especializado en enfermedades de la piel, uñas y cabello, así como procedimientos cosméticos. Atiendo pacientes en mi consultorio en Rio de Janeiro, y por telemedicina en Brasil y en el exterior (atiendo en portugués, español e inglés).',
+              lanAboutLink: 'saber mas →'
+
+
             }
           }
         }

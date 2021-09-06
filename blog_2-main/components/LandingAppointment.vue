@@ -1,7 +1,6 @@
 <template>
   <section class="appointment" id="appointment">
     <div class="appointment__text-container">
-      <p>{{$t('greeting')}}</p>
       <h2 class="appoitment__title"> Dermatologista - Miguel Ceccarelli</h2>
       <h3 class="appointment__text">
         <strong
