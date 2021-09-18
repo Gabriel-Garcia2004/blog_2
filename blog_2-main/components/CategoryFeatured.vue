@@ -1,7 +1,7 @@
 <template>
   <section class="miniArticle">
 
-    <h2 class="miniArticle__subtitle" v-if="language == 'br' || language == undefined">{{title}}</h2>
+    <h2 class="miniArticle__subtitle" v-if="language == 'br' || language == undefined">{{categoryTitle}}</h2>
     <h2 class="miniArticle__subtitle" v-else-if="language == 'en'">{{titleEn}}</h2>
     <h2 class="miniArticle__subtitle" v-else>{{titleEs}}</h2>
 
@@ -65,8 +65,6 @@
           if (!data['data']['status']) {
             this.error = data['data']['data']['message']
           }
-
-          console.log(data['data']['data'][0]);
 
           this.titleEn = data['data']['data'][0]['category.titleEn'] || 'Not found'
           this.titleEs = data['data']['data'][0]['category.titleEs'] || 'No encontrado'
