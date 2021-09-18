@@ -1,7 +1,7 @@
 <template>
 	<section class="blog" id="blog">
 		<div class="grid-blog">
-			 <h2 class="blog__title"><NuxtLink class="blog__title" :to="localePath('/blog')">Visite nosso blog
+			 <h2 class="blog__title"><NuxtLink class="blog__title" :to="localePath('/blog')">{{ $t('LanBlogTitle') }}
 			</NuxtLink></h2>
 			<h3 class="blog__title" v-show="error != undefined">{{ error }}</h3>
 			<div class="blog__card" v-for="category in data" :key="category.id">

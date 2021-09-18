@@ -1,13 +1,15 @@
 <template>
   <section class="miniArticle">
 
-    <h2 class="miniArticle__subtitle">{{categoryTitle}}</h2>
+    <h2 class="miniArticle__subtitle" v-if="language == 'br' || language == undefined">{{category.Title}}</h2>
+     <h2 class="miniArticle__subtitle" v-else-if="language == 'en'">{{category.TitleEn}}</h2>
+     <h2 class="miniArticle__subtitle" v-else>{{category.TitleEs}}</h2>
     <div class="miniArticle__article--box">
       <div class="miniArticle_article" v-for="subcategory in data" :key="subcategory.id">
         <h4 class="miniArticle_subtitle" v-if="language == 'br' || language == undefined">{{ subcategory.title }}</h4>
         <h4 class="miniArticle_subtitle" v-else-if="language == 'en'">{{ subcategory.titleEn }}</h4>
         <h4 class="miniArticle_subtitle" v-else>{{ subcategory.titleEs }}</h4>
-        <NuxtLink class="miniArticle_button" :to="localePath({ name: 'blog-subcategory-id', params: { id: subcategory.id } })">Ler mais  ➔
+        <NuxtLink class="miniArticle_button" :to="localePath({ name: 'blog-subcategory-id', params: { id: subcategory.id } })">{{$t('ReadMore')}}
         </NuxtLink>
       </div>
 

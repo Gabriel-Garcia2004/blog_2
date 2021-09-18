@@ -1,26 +1,22 @@
 <template>
   <section class="appointment" id="appointment">
     <div class="appointment__text-container">
-      <h2 class="appoitment__title"> Dermatologista - Miguel Ceccarelli</h2>
+      <h2 class="appoitment__title">{{ $t('LanAppointmentTitle') }}</h2>
       <h3 class="appointment__text">
         <strong
-          >Ciência dermatológica para o cuidado de suas unhas, pele e
-          cabelo.</strong
+          >{{ $t('LanAppointmentText') }}</strong
         >
       </h3>
-      <div class="map">
-
-      </div>
-
-      <p class="appointment__text">Endereços:<br>
+      <p class="appointment__text">{{ $t('LanAppointmentTextAd') }}<br>
 Dermoclinic - Rua Voluntários da Patria 45, grupo 302/303 - Botafogo, Rio de Janeiro - RJ, CEP 22270-000.<br>
-Telefone: (21) 2527-2103<br>
-Whatsapp: (21) 99302-1903</p>
+{{ $t('LanAppointmentTell1') }}<br>
+{{ $t('LanAppointmentWhats1') }}<br>
+{{ $t('LanAppointmentWhats2') }}</p>
       <p class="appointment__text">Ambar Saúde - Av. das Américas, 2480 - Bloco 2, Sala 125 - Barra da Tijuca, Rio de Janeiro - RJ, CEP 22640-101.<br>
-Telefone: (21) 3094-2453<br>
-Whatsapp: (21) 99218-9718</p>
+{{ $t('LanAppointmentTell2') }}<br>
+{{ $t('LanAppointmentWhats2') }}</p>
       <p class="appointment__text">Consultório Leblón-
-Av Ataulfo de Paiva, 255, salas 605 e 606, Leblón, Rio de Janeiro, RJ, CEP  22440-032<br> Telefone: (21) 3094-2453 <br> Whatsapp: (21) 99218-9718
+Av Ataulfo de Paiva, 255, salas 605 e 606, Leblón, Rio de Janeiro, RJ, CEP  22440-032<br> {{ $t('LanAppointmentTell2') }}<br> {{ $t('LanAppointmentWhats2') }}
 </p>
     </div>
   <div id="map-wrap" style="height: 500px; width: 100%;">

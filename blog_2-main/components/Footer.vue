@@ -48,27 +48,27 @@
           <h2 class="footer__box-title">MC</h2>
           <ul class="footer__item">
             <li class="footer__list">
-              <a  href="/#about" class="footer__link">Sobre</a>
+              <a  href="/#about" class="footer__link">{{$t('about')}}</a>
             </li>
             <li class="footer__list">
               <NuxtLink class="footer__link" :to="localePath('/blog')">Blog</NuxtLink>
             </li>
             <li class="footer__list">
-              <a target="_blank" href="https://wa.me/5521992189718?%20text=Ola,%20gostaria%20de%20agendar%20uma%20consulta%20com%20o%20Dr%20Ceccarelli" class="footer__link">Contato</a>
+              <a target="_blank" href="https://wa.me/5521992189718?%20text=Ola,%20gostaria%20de%20agendar%20uma%20consulta%20com%20o%20Dr%20Ceccarelli" class="footer__link">{{$t('contact')}}</a>
             </li>
           </ul>
         </div>
         <div class="footer__box">
-          <h2 class="footer__box-title">Links úteis</h2>
+          <h2 class="footer__box-title">{{$t('UsefulLinks')}}</h2>
           <ul class="footer__item">
             <li class="footer__list">
               <a target="_blank" href="https://www.doctoralia.com.br/miguel-ceccarelli/dermatologista/rio-de-janeiro" class="footer__link">Doctoralia</a>
             </li>
             <li class="footer__list">
-              <a target="_blank" href="/#appointment" class="footer__link">Agendamentos</a>
+              <a target="_blank" href="/#appointment" class="footer__link">{{$t('Schedules')}}</a>
             </li>
             <li class="footer__list">
-              <NuxtLink :to="localePath('/privacy')" class="footer__link">Política de privacidade</NuxtLink>
+              <NuxtLink :to="localePath('/privacy')" class="footer__link">{{$t('PrivacyPolicy')}}</NuxtLink>
             </li>
           </ul>
         </div>

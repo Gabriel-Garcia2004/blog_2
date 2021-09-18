@@ -2,9 +2,9 @@
   <section class="miniArticle">
 
     <div class="miniArticle__article" v-for="article in data" :key="article.id">
-      <h4 class="miniArticle__subtitle" v-if="language == 'br' || language == undefined">Em destaques / {{ article['subcategory.category.title'] }} / {{ article['subcategory.title'] }}</h4>
-      <h4 class="miniArticle__subtitle" v-else-if="language == 'en'">Em destaques / {{ article['subcategory.category.titleEn'] }} / {{ article['subcategory.titleEn'] }}</h4>
-      <h4 class="miniArticle__subtitle" v-else>Em destaques / {{ article['subcategory.category.titleEs'] }} / {{ article['subcategory.titleEs'] }}</h4>
+      <h4 class="miniArticle__subtitle" v-if="language == 'br' || language == undefined">{{$t('BlogHighlighted')}} {{ article['subcategory.category.title'] }} / {{ article['subcategory.title'] }}</h4>
+      <h4 class="miniArticle__subtitle" v-else-if="language == 'en'">{{$t('BlogHighlighted')}} {{ article['subcategory.category.titleEn'] }} / {{ article['subcategory.titleEn'] }}</h4>
+      <h4 class="miniArticle__subtitle" v-else>{{$t('BlogHighlighted')}} {{ article['subcategory.category.titleEs'] }} / {{ article['subcategory.titleEs'] }}</h4>
       <div class="miniArticle__article-box">
         <figure class="miniArticle__img">
 
@@ -24,7 +24,7 @@
           <p class="miniArticle__description">{{ article.shortEs }} </p>
         </div>
 
-        <NuxtLink class="miniArticle__button" :to="localePath({ name: 'blog-article-slug', params: { slug: article.slug } })">Ler mais  ➔</NuxtLink>
+        <NuxtLink class="miniArticle__button" :to="localePath({ name: 'blog-article-slug', params: { slug: article.slug } })">{{$t('ReadMore')}}</NuxtLink>
 
       </div>
     </div>

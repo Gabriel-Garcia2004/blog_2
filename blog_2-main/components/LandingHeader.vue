@@ -20,7 +20,7 @@
 
 
       </ul>
-      <NuxtLink to="/blog/home">
+      <NuxtLink :to="localePath('/blog')">
       <img
         src="~/assets/icon.svg"
         class="header__img"

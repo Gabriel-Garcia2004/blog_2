@@ -81,7 +81,24 @@ export default {
               headerButton: 'Agendar',
               aboutMe: 'Sobre mim',
               lanAboutText:  'Olá, sou dermatologista (CRMRJ 52-0109245-6 / RQE 34414) e estou especializado em doenças das unhas e procedimentos de estética. Atendo presencialmente pacientes no meu consultório no Rio de Janeiro, e por telemedicina na Brasil e fora do país (atendo em português, espanhol e inglês).',
-              lanAboutLink: 'Saber mais →'
+              lanAboutLink: 'Saber mais →',
+              LanAppointmentTitle: 'Dermatologista - Miguel Ceccarelli',
+              LanAppointmentText: 'Ciência dermatológica para o cuidado de suas unhas, pele e cabelo.',
+              LanAppointmentTextAd: 'Endereços:',
+              LanAppointmentTell1: 'Telefone: (21) 2527-2103',
+              LanAppointmentTell2: 'Telefone: (21) 3094-2453',
+              LanAppointmentWhats1: 'Whatsapp: (21) 99302-1903',
+              LanAppointmentWhats2: 'Whatsapp: (21) 99218-9718   ',
+              LanBlogTitle: 'Visite nosso blog',
+              BlogHighlighted: 'Em destaque /',
+              CopyLink: 'Copiar link',
+              ReadMore: 'Ler mais ➔',
+              Main: 'Principais /',
+              HighlightOfTheDay: 'Destaque do dia',
+              UsefulLinks: 'Links úteis',
+              Schedules: 'Agendamentos',
+              PrivacyPolicy: 'Política de privacidade',
+
             },
 
             en: {
@@ -95,9 +112,23 @@ export default {
               headerButton: 'Schedule',
               aboutMe: 'About me',
               lanAboutText: 'Hello, I am a board-certified dermatologist by the Brazilian Society of Dermatology (CRMRJ 52-0109245-6 / RQE 34414) specialized in skin, hair, and nail diseases, as well as cosmetic procedures. My medical and aesthetics practice is located in Rio de Janeiro. I am passionate about giving an appropriately qualified experience. I can communicate effectively in English, Spanish and Portuguese.',
-              lanAboutLink: 'to know more →'
-
-
+              lanAboutLink: 'to know more →',
+              LanAppointmentTitle: 'Dermatologist - Miguel Ceccarelli',
+              LanAppointmentText: 'Dermatological science for the care of your nails, skin, and hair.',
+              LanAppointmentTextAd: 'Seeking a consultation in Rio de Janeiro:',
+              LanAppointmentTell1: 'Telephone: (21) 2527-2103',
+              LanAppointmentTell2: 'Telephone: (21) 3094-2453',
+              LanAppointmentWhats1: 'Whatsapp: (21) 99302-1903',
+              LanAppointmentWhats2: 'Whatsapp: (21) 99218-9718   ',
+              LanBlogTitle: 'Visit our blog',
+              BlogHighlighted: 'Highlighted /',
+              CopyLink: 'Copy link',
+              ReadMore: 'Read more ➔',
+              Main: 'Main /',
+              HighlightOfTheDay: 'Highlight of the day',
+              UsefulLinks: 'Useful links',
+              Schedules: 'Schedules',
+              PrivacyPolicy: 'Privacy Policy',
 
             },
             es: {
@@ -111,7 +142,23 @@ export default {
               headerButton: 'Programar',
               aboutMe: 'Sobre mí',
               lanAboutText: 'Hola, soy un dermatólogo certificado por la Sociedad Brasileña de Dermatología (CRMRJ 52-0109245-6 / RQE 34414) y estoy especializado en enfermedades de la piel, uñas y cabello, así como procedimientos cosméticos. Atiendo pacientes en mi consultorio en Rio de Janeiro, y por telemedicina en Brasil y en el exterior (atiendo en portugués, español e inglés).',
-              lanAboutLink: 'saber mas →'
+              lanAboutLink: 'saber mas →',
+              LanAppointmentTitle: 'Dermatólogo - Miguel Ceccarelli',
+              LanAppointmentText: 'Ciencia dermatológica para el cuidado de tus uñas, piel y cabello.',
+              LanAppointmentTextAd: 'Dirección y números de contacto:',
+              LanAppointmentTell1: 'Teléfono: (21) 2527-2103',
+              LanAppointmentTell2: 'Teléfono: (21) 3094-2453',
+              LanAppointmentWhats1: 'Whatsapp: (21) 99302-1903',
+              LanAppointmentWhats2: 'Whatsapp: (21) 99218-9718   ',
+              LanBlogTitle: 'Visita nuestro blog',
+              BlogHighlighted: 'Destacado /',
+              CopyLink: 'Copiar link',
+              ReadMore: 'Leer más ➔',
+              Main: 'Principal /',
+              HighlightOfTheDay: 'Lo más destacado del día',
+              UsefulLinks: 'Enlaces útiles',
+              Schedules: 'Horarios',
+              PrivacyPolicy: 'Política de privacidad',
 
 
             }

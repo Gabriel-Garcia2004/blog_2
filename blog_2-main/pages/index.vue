@@ -1,6 +1,6 @@
 <template>
   <section>
-
+    <LandingNavbar />
     <LandingHeader/>
     <LandingAbout/>
     <LandingAppointment/>

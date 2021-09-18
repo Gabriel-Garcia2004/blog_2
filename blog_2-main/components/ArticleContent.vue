@@ -4,7 +4,7 @@
 
       <div v-if="language == 'br' || language == undefined">
 
-        <h2 class="blog__title">Em destaque / {{ title }}</h2>
+        <h2 class="blog__title">{{$t('BlogHighlighted')}} {{ title }}</h2>
         <img class="blog__img" :src="image" :alt="title">
 
         <p class="blog__text">{{ short }}</p>
@@ -16,7 +16,7 @@
       </div>
       <div v-else-if="language == 'en'">
 
-        <h2 class="blog__title">Em destaque / {{ titleEn }}</h2>
+        <h2 class="blog__title">{{$t('BlogHighlighted')}} {{ titleEn }}</h2>
         <img class="blog__img" :src="image" :alt="titleEn">
 
         <p class="blog__text">{{ shortEn }}</p>
@@ -28,7 +28,7 @@
       </div>
       <div v-else>
 
-        <h2 class="blog__title">Em destaque / {{ titleEs }}</h2>
+        <h2 class="blog__title">{{$t('BlogHighlighted')}} {{ titleEs }}</h2>
         <img class="blog__img" :src="image" :alt="titleEs">
 
         <p class="blog__text">{{ shortEs }}</p>
@@ -42,7 +42,7 @@
       <a type="button" v-bind:href="socialmedias.whatsapp" class="btn btn-outline-success mr-2">Whatsapp</a>
       <a type="button" target="blank" v-bind:href="socialmedias.facebook" class="btn btn-outline-primary mr-2">Facebook</a>
       <a type="button" target="blank" v-bind:href="socialmedias.twitter" class="btn btn-outline-secondary mr-2">Twitter</a>
-      <button class="btn btn-outline-warning mr-2" @click="copyToClipBoard">Copy link</button>
+      <button class="btn btn-outline-warning mr-2" @click="copyToClipBoard">{{$t('CopyLink')}}</button>
 
     </article>
   </section>

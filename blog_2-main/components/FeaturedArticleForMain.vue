@@ -5,7 +5,7 @@
 
       <div v-if="language == 'br' || language == undefined">
 
-        <h2 class="blog__title">Principais / {{ title }}</h2>
+        <h2 class="blog__title">{{$t('Main')}}Principais / {{ title }}</h2>
         <img class="blog__img" :src="image" :alt="title">
         <p class="blog__text">{{ short }}</p>
 
@@ -14,14 +14,14 @@
         class="blog__button"
         :to="localePath({name: 'blog-article-slug', params: {slug: slug}})"
         >
-        Ler Mais
+        {{$t('ReadMore')}}
       </NuxtLink>
 
     </div>
 
     <div v-if="language == 'en'">
 
-      <h2 class="blog__title">Principais / {{ titleEn }}</h2>
+      <h2 class="blog__title">{{$t('Main')}} {{ titleEn }}</h2>
       <img class="blog__img" :src="image" :alt="titleEn">
       <p class="blog__text">{{ shortEn }}</p>
 
@@ -30,14 +30,15 @@
       class="blog__button"
       :to="localePath({name: 'blog-article-slug', params: {slug: slug}})"
       >
-      Ler Mais
+              {{$t('ReadMore')}}
+
     </NuxtLink>
 
   </div>
 
   <div v-else>
 
-    <h2 class="blog__title">Principais / {{ titleEs }}</h2>
+    <h2 class="blog__title">{{$t('Main')}} {{ titleEs }}</h2>
     <img class="blog__img" :src="image" :alt="titleEs">
     <p class="blog__text">{{ shortEs }}</p>
 
@@ -46,7 +47,8 @@
     class="blog__button"
     :to="localePath({name: 'blog-article-slug', params: {slug: slug}})"
     >
-    Ler Mais
+            {{$t('ReadMore')}}
+
   </NuxtLink>
 
 </div>

@@ -2,7 +2,7 @@
   <section class="miniArticle">
 
     <div class="miniArticle__article" v-for="article in data" :key="article.id">
-      <h4 class="miniArticle__subtitle">Destaque do dia</h4>
+      <h4 class="miniArticle__subtitle">{{$t('HighlightOfTheDay')}}</h4>
       <div class="miniArticle__article-box">
         <figure class="miniArticle__img">
 
@@ -20,7 +20,7 @@
           <h5 class="miniArticle__author">{{ article.titleEs }}</h5>
           <p class="miniArticle__description">{{ article.shortEs }} </p>
         </div>
-        <NuxtLink class="miniArticle__button" :to="localePath({ name: 'blog-article-slug', params: { slug: article.slug } })">Ler mais  ➔</NuxtLink>
+        <NuxtLink class="miniArticle__button" :to="localePath({ name: 'blog-article-slug', params: { slug: article.slug } })">{{$t('ReadMore')}}</NuxtLink>
       </div>
     </div>
 
