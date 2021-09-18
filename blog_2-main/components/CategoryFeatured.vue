@@ -1,9 +1,10 @@
 <template>
   <section class="miniArticle">
 
-    <h2 class="miniArticle__subtitle" v-if="language == 'br' || language == undefined">{{category.Title}}</h2>
-     <h2 class="miniArticle__subtitle" v-else-if="language == 'en'">{{category.TitleEn}}</h2>
-     <h2 class="miniArticle__subtitle" v-else>{{category.TitleEs}}</h2>
+    <h2 class="miniArticle__subtitle" v-if="language == 'br' || language == undefined">{{title}}</h2>
+    <h2 class="miniArticle__subtitle" v-else-if="language == 'en'">{{titleEn}}</h2>
+    <h2 class="miniArticle__subtitle" v-else>{{titleEs}}</h2>
+
     <div class="miniArticle__article--box">
       <div class="miniArticle_article" v-for="subcategory in data" :key="subcategory.id">
         <h4 class="miniArticle_subtitle" v-if="language == 'br' || language == undefined">{{ subcategory.title }}</h4>
@@ -42,6 +43,9 @@
     data(){
       return {
         category: this.$route.params.id,
+        title: 'Carregando...',
+        titleEn: 'Loading...',
+        titleEs: 'Carregando...',
         categoryTitle: undefined,
         language: this.$nuxt.$i18n.locale,
         data: undefined
@@ -62,8 +66,12 @@
             this.error = data['data']['data']['message']
           }
 
-          this.data = data['data']['data']
+          console.log(data['data']['data'][0]);
+
+          this.titleEn = data['data']['data'][0]['category.titleEn'] || 'Not found'
+          this.titleEs = data['data']['data'][0]['category.titleEs'] || 'No encontrado'
           this.categoryTitle = data['data']['data'][0]['category.title'] || 'Não encontrado'
+          this.data = data['data']['data']
         })
 
       }
