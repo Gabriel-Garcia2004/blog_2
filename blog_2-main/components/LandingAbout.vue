@@ -11,23 +11,13 @@
       </div>
     </div>
     <div class="about__personal-data">
-      <div class="about__container">
+          <h3 class="about__data-title">{{ $t('Societies') }}</h3>
+
         <div class="about__data">
-          <h3 class="about__data-title">500+</h3>
-          <h4 class="about__data-text">Clientes satisfeitos</h4>
-        </div>
-        <div class="about__data">
-          <h3 class="about__data-title">560+</h3>
-          <h4 class="about__data-text">Tratamentos de sucesso</h4>
-        </div>
-        <div class="about__data">
-          <h3 class="about__data-title">3</h3>
-          <h4 class="about__data-text">Formações profissionais</h4>
-        </div>
-        <div class="about__data">
-          <h3 class="about__data-title">10+</h3>
-          <h4 class="about__data-text">Premiações</h4>
-        </div>
+        <img class="about__img_s" src="../assets/sbd.png" alt="" srcset="">
+        <img class="about__img_s"  src="../assets/ENS.jpg" alt="" srcset="">
+        <img class="about__img_s+"  src="../assets/eadv.png" alt="" srcset="">
+
       </div>
     </div>
 
@@ -95,8 +85,13 @@ export default {
     text-decoration: underline;
   }
   .about__personal-data {
-    background: #808184;
-    color: #fff;
+    background: #7a695f;
+    color: #fde6dc;
+
+  padding: 10px;
+    border-top: solid #404041 3px;
+    border-bottom: solid #404041 3px;
+
   }
   .about__container{
       display: grid;
@@ -107,15 +102,19 @@ export default {
       gap: 10px;
   }
   .about__data {
-    border-bottom: 2px solid #fff;
+
     display: flex;
-    flex-direction: column;
+  flex-direction: column;
     justify-content: space-between;
     text-align: center;
-    max-width: 250px;
+    align-items: center;
+    padding: 10px ;
+    gap: 5px;
+
   }
   .about__data-title{
   font-size: 1.875rem;
+  text-align: center;
   font-style: normal;
   font-weight: 800;
   line-height: 4rem;
@@ -129,6 +128,12 @@ export default {
   line-height: 1.625rem;
   letter-spacing: 0em;
 
+  }
+  .about__img_s{
+    max-width: 400px;
+  }
+    .about__img_s+{
+    max-width: 500px;
   }
   @media (min-width: 768px) {
     .about__content {
@@ -148,16 +153,14 @@ export default {
     .about__text, .about__title{
       text-align: initial;
     }
-    .about__container{
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      max-width: 80%;
-      margin: 0 auto;
-      padding: 1.25rem;
-      gap: 10px;
-  }
+    .about__data{
+      flex-direction: row;
+    align-items: center;
+
+    }
   .about__data-title{
       font-size: 2.5rem;
   }
+
   }
 </style>

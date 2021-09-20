@@ -98,6 +98,7 @@ export default {
               UsefulLinks: 'Links úteis',
               Schedules: 'Agendamentos',
               PrivacyPolicy: 'Política de privacidade',
+              Societies: 'Sociedades das quais participo',
 
             },
 
@@ -129,6 +130,7 @@ export default {
               UsefulLinks: 'Useful links',
               Schedules: 'Schedules',
               PrivacyPolicy: 'Privacy Policy',
+              Societies: 'Societies in which I participate',
 
             },
             es: {
@@ -159,6 +161,7 @@ export default {
               UsefulLinks: 'Enlaces útiles',
               Schedules: 'Horarios',
               PrivacyPolicy: 'Política de privacidad',
+              Societies: 'Sociedades en las que participo',
 
 
             }

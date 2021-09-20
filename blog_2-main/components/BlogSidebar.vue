@@ -10,7 +10,6 @@
       <button v-else class="button btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
         {{ category.titleEs }}
       </button>
-''
     <ul class="dropdown-menu">
       <li v-for="subcategory in subcategories" :key="subcategory.id">
         <div v-if="subcategory.categoryId == category.id">
