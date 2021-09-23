@@ -33,6 +33,7 @@ export default {
     // https://go.nuxtjs.dev/axios
     "@nuxtjs/axios",
     "@nuxtjs/sitemap",
+    '@nuxtjs/gtm',
       ['nuxt-leaflet', { /* module options */ }],
 
 
@@ -214,6 +215,31 @@ export default {
       priority: 1,
       lastmod: new Date()
     }
+  },
+
+
+  gtm: {
+    enabled: undefined, /* see below */
+    debug: false,
+
+    id: 'GTM-5TDP47J',
+    layer: 'dataLayer',
+    variables: {},
+
+    pageTracking: false,
+    pageViewEventName: 'nuxtRoute',
+
+    autoInit: true,
+    respectDoNotTrack: true,
+
+    scriptId: 'gtm-script',
+    scriptDefer: false,
+    scriptURL: 'https://www.googletagmanager.com/gtm.js',
+    crossOrigin: false,
+
+    noscript: true,
+    noscriptId: 'gtm-noscript',
+    noscriptURL: 'https://www.googletagmanager.com/ns.html'
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
