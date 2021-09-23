@@ -23,7 +23,7 @@
 
       <div class="about__data">
         <img class="about__img__s" src="../assets/sbd.png" alt="" srcset="" />
-        <img class="about__img__s" src="../assets/ENS.jpg" alt="" srcset="" />
+        <img class="about__img__s" src="../assets/ens.jpeg" alt="" srcset="" />
         <img class="about__img_s+" src="../assets/eadv.png" alt="" srcset="" />
       </div>
     </div>
