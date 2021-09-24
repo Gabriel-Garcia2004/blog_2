@@ -217,7 +217,6 @@ export default {
     }
   },
 
-
   gtm: {
     enabled: undefined, /* see below */
     debug: false,
