@@ -25,8 +25,13 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxtjs/google-analytics',
     '@modules/sitemapRouteGenerator'
   ],
+
+  googleAnalytics: {
+    id: 'UA-12301-2'
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -239,6 +244,12 @@ export default {
     noscript: true,
     noscriptId: 'gtm-noscript',
     noscriptURL: 'https://www.googletagmanager.com/ns.html'
+  },
+
+  publicRuntimeConfig: {
+    gtm: {
+      id: 'GTM-5TDP47J'
+    }
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
