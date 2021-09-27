@@ -68,7 +68,7 @@ function startPageTracking(ctx) {
       ctx.$gtm.push(to.gtm || {
         routeName: to.name,
         pageType: 'PageView',
-       pageUrl: '' + to.fullPath,
+        pageUrl: '' + to.fullPath,
         pageTitle: (typeof document !== 'undefined' && document.title) || '',
         event: 'nuxtRoute'
       })

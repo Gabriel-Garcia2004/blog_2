@@ -280,7 +280,7 @@ export default {
   target: 'server',
 
   generate: {
-    crawler: false // default - true
+    crawler: true // default - true
   },
   generate: {
     dir: 'public'
