@@ -5,7 +5,7 @@
         <NuxtLink :to="localePath('/')" class="menu-mobile__link">
           <img
             class="menu-mobile__img"
-            src="~/assets/icon.svg"
+            src="~/assets/icon.png"
           />
         </NuxtLink>
       </figure>
