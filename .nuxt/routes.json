@@ -2,157 +2,157 @@
   {
     "name": "blog___br",
     "path": "/blog",
-    "component": "C:\\\\Users\\\\Usuario\\\\Desktop\\\\TempFiles\\\\blog_2\\\\pages\\\\blog\\\\index.vue",
+    "component": "/home/gabriel/Code/blog_2-main/pages/blog/index.vue",
     "chunkName": "pages/blog/index",
     "url": "/blog",
-    "_name": "_d928ea1a"
+    "_name": "_646e3168"
   },
   {
     "name": "index___en",
     "path": "/en",
-    "component": "C:\\\\Users\\\\Usuario\\\\Desktop\\\\TempFiles\\\\blog_2\\\\pages\\\\index.vue",
+    "component": "/home/gabriel/Code/blog_2-main/pages/index.vue",
     "chunkName": "pages/index",
     "url": "/",
-    "_name": "_2f3f48d6"
+    "_name": "_3a03965f"
   },
   {
     "name": "index___es",
     "path": "/es",
-    "component": "C:\\\\Users\\\\Usuario\\\\Desktop\\\\TempFiles\\\\blog_2\\\\pages\\\\index.vue",
+    "component": "/home/gabriel/Code/blog_2-main/pages/index.vue",
     "chunkName": "pages/index",
     "url": "/",
-    "_name": "_2f3f48d6"
+    "_name": "_3a03965f"
   },
   {
     "name": "privacy___br",
     "path": "/privacy",
-    "component": "C:\\\\Users\\\\Usuario\\\\Desktop\\\\TempFiles\\\\blog_2\\\\pages\\\\privacy.vue",
+    "component": "/home/gabriel/Code/blog_2-main/pages/privacy.vue",
     "chunkName": "pages/privacy",
     "url": "/privacy",
-    "_name": "_cb9726ea"
+    "_name": "_0ff41cd5"
   },
   {
     "name": "blog___en",
     "path": "/en/blog",
-    "component": "C:\\\\Users\\\\Usuario\\\\Desktop\\\\TempFiles\\\\blog_2\\\\pages\\\\blog\\\\index.vue",
+    "component": "/home/gabriel/Code/blog_2-main/pages/blog/index.vue",
     "chunkName": "pages/blog/index",
     "url": "/blog",
-    "_name": "_d928ea1a"
+    "_name": "_646e3168"
   },
   {
     "name": "privacy___en",
     "path": "/en/privacy",
-    "component": "C:\\\\Users\\\\Usuario\\\\Desktop\\\\TempFiles\\\\blog_2\\\\pages\\\\privacy.vue",
+    "component": "/home/gabriel/Code/blog_2-main/pages/privacy.vue",
     "chunkName": "pages/privacy",
     "url": "/privacy",
-    "_name": "_cb9726ea"
+    "_name": "_0ff41cd5"
   },
   {
     "name": "blog___es",
     "path": "/es/blog",
-    "component": "C:\\\\Users\\\\Usuario\\\\Desktop\\\\TempFiles\\\\blog_2\\\\pages\\\\blog\\\\index.vue",
+    "component": "/home/gabriel/Code/blog_2-main/pages/blog/index.vue",
     "chunkName": "pages/blog/index",
     "url": "/blog",
-    "_name": "_d928ea1a"
+    "_name": "_646e3168"
   },
   {
     "name": "privacy___es",
     "path": "/es/privacy",
-    "component": "C:\\\\Users\\\\Usuario\\\\Desktop\\\\TempFiles\\\\blog_2\\\\pages\\\\privacy.vue",
+    "component": "/home/gabriel/Code/blog_2-main/pages/privacy.vue",
     "chunkName": "pages/privacy",
     "url": "/privacy",
-    "_name": "_cb9726ea"
+    "_name": "_0ff41cd5"
   },
   {
     "name": "blog-article-slug___en",
     "path": "/en/blog/article/:slug?",
-    "component": "C:\\\\Users\\\\Usuario\\\\Desktop\\\\TempFiles\\\\blog_2\\\\pages\\\\blog\\\\article\\\\_slug.vue",
+    "component": "/home/gabriel/Code/blog_2-main/pages/blog/article/_slug.vue",
     "chunkName": "pages/blog/article/_slug",
-    "_name": "_d997b6fa"
+    "_name": "_7db90847"
   },
   {
     "name": "blog-category-id___en",
     "path": "/en/blog/category/:id?",
-    "component": "C:\\\\Users\\\\Usuario\\\\Desktop\\\\TempFiles\\\\blog_2\\\\pages\\\\blog\\\\category\\\\_id.vue",
+    "component": "/home/gabriel/Code/blog_2-main/pages/blog/category/_id.vue",
     "chunkName": "pages/blog/category/_id",
-    "_name": "_1b84e7c6"
+    "_name": "_31168a83"
   },
   {
     "name": "blog-search-query___en",
     "path": "/en/blog/search/:query?",
-    "component": "C:\\\\Users\\\\Usuario\\\\Desktop\\\\TempFiles\\\\blog_2\\\\pages\\\\blog\\\\search\\\\_query.vue",
+    "component": "/home/gabriel/Code/blog_2-main/pages/blog/search/_query.vue",
     "chunkName": "pages/blog/search/_query",
-    "_name": "_5b7018a0"
+    "_name": "_07ac25a6"
   },
   {
     "name": "blog-subcategory-id___en",
     "path": "/en/blog/subcategory/:id?",
-    "component": "C:\\\\Users\\\\Usuario\\\\Desktop\\\\TempFiles\\\\blog_2\\\\pages\\\\blog\\\\subcategory\\\\_id.vue",
+    "component": "/home/gabriel/Code/blog_2-main/pages/blog/subcategory/_id.vue",
     "chunkName": "pages/blog/subcategory/_id",
-    "_name": "_eb9743aa"
+    "_name": "_0246faff"
   },
   {
     "name": "blog-article-slug___es",
     "path": "/es/blog/article/:slug?",
-    "component": "C:\\\\Users\\\\Usuario\\\\Desktop\\\\TempFiles\\\\blog_2\\\\pages\\\\blog\\\\article\\\\_slug.vue",
+    "component": "/home/gabriel/Code/blog_2-main/pages/blog/article/_slug.vue",
     "chunkName": "pages/blog/article/_slug",
-    "_name": "_d997b6fa"
+    "_name": "_7db90847"
   },
   {
     "name": "blog-category-id___es",
     "path": "/es/blog/category/:id?",
-    "component": "C:\\\\Users\\\\Usuario\\\\Desktop\\\\TempFiles\\\\blog_2\\\\pages\\\\blog\\\\category\\\\_id.vue",
+    "component": "/home/gabriel/Code/blog_2-main/pages/blog/category/_id.vue",
     "chunkName": "pages/blog/category/_id",
-    "_name": "_1b84e7c6"
+    "_name": "_31168a83"
   },
   {
     "name": "blog-search-query___es",
     "path": "/es/blog/search/:query?",
-    "component": "C:\\\\Users\\\\Usuario\\\\Desktop\\\\TempFiles\\\\blog_2\\\\pages\\\\blog\\\\search\\\\_query.vue",
+    "component": "/home/gabriel/Code/blog_2-main/pages/blog/search/_query.vue",
     "chunkName": "pages/blog/search/_query",
-    "_name": "_5b7018a0"
+    "_name": "_07ac25a6"
   },
   {
     "name": "blog-subcategory-id___es",
     "path": "/es/blog/subcategory/:id?",
-    "component": "C:\\\\Users\\\\Usuario\\\\Desktop\\\\TempFiles\\\\blog_2\\\\pages\\\\blog\\\\subcategory\\\\_id.vue",
+    "component": "/home/gabriel/Code/blog_2-main/pages/blog/subcategory/_id.vue",
     "chunkName": "pages/blog/subcategory/_id",
-    "_name": "_eb9743aa"
+    "_name": "_0246faff"
   },
   {
     "name": "blog-article-slug___br",
     "path": "/blog/article/:slug?",
-    "component": "C:\\\\Users\\\\Usuario\\\\Desktop\\\\TempFiles\\\\blog_2\\\\pages\\\\blog\\\\article\\\\_slug.vue",
+    "component": "/home/gabriel/Code/blog_2-main/pages/blog/article/_slug.vue",
     "chunkName": "pages/blog/article/_slug",
-    "_name": "_d997b6fa"
+    "_name": "_7db90847"
   },
   {
     "name": "blog-category-id___br",
     "path": "/blog/category/:id?",
-    "component": "C:\\\\Users\\\\Usuario\\\\Desktop\\\\TempFiles\\\\blog_2\\\\pages\\\\blog\\\\category\\\\_id.vue",
+    "component": "/home/gabriel/Code/blog_2-main/pages/blog/category/_id.vue",
     "chunkName": "pages/blog/category/_id",
-    "_name": "_1b84e7c6"
+    "_name": "_31168a83"
   },
   {
     "name": "blog-search-query___br",
     "path": "/blog/search/:query?",
-    "component": "C:\\\\Users\\\\Usuario\\\\Desktop\\\\TempFiles\\\\blog_2\\\\pages\\\\blog\\\\search\\\\_query.vue",
+    "component": "/home/gabriel/Code/blog_2-main/pages/blog/search/_query.vue",
     "chunkName": "pages/blog/search/_query",
-    "_name": "_5b7018a0"
+    "_name": "_07ac25a6"
   },
   {
     "name": "blog-subcategory-id___br",
     "path": "/blog/subcategory/:id?",
-    "component": "C:\\\\Users\\\\Usuario\\\\Desktop\\\\TempFiles\\\\blog_2\\\\pages\\\\blog\\\\subcategory\\\\_id.vue",
+    "component": "/home/gabriel/Code/blog_2-main/pages/blog/subcategory/_id.vue",
     "chunkName": "pages/blog/subcategory/_id",
-    "_name": "_eb9743aa"
+    "_name": "_0246faff"
   },
   {
     "name": "index___br",
     "path": "/",
-    "component": "C:\\\\Users\\\\Usuario\\\\Desktop\\\\TempFiles\\\\blog_2\\\\pages\\\\index.vue",
+    "component": "/home/gabriel/Code/blog_2-main/pages/index.vue",
     "chunkName": "pages/index",
     "url": "/",
-    "_name": "_2f3f48d6"
+    "_name": "_3a03965f"
   }
 ]
