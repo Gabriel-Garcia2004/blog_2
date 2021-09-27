@@ -1,0 +1,50 @@
+{
+  "ArticleContent": {
+    "description": "Auto imported from components/ArticleContent.vue"
+  },
+  "BlogCardVideos": {
+    "description": "Auto imported from components/BlogCardVideos.vue"
+  },
+  "BlogFeaturedMiniArticle": {
+    "description": "Auto imported from components/BlogFeaturedMiniArticle.vue"
+  },
+  "BlogHeader": {
+    "description": "Auto imported from components/BlogHeader.vue"
+  },
+  "BlogNavbar": {
+    "description": "Auto imported from components/BlogNavbar.vue"
+  },
+  "BlogSidebar": {
+    "description": "Auto imported from components/BlogSidebar.vue"
+  },
+  "CategoryFeatured": {
+    "description": "Auto imported from components/CategoryFeatured.vue"
+  },
+  "FeaturedArticleForMain": {
+    "description": "Auto imported from components/FeaturedArticleForMain.vue"
+  },
+  "FeaturedMiniArticleForMain": {
+    "description": "Auto imported from components/FeaturedMiniArticleForMain.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "LandingAbout": {
+    "description": "Auto imported from components/LandingAbout.vue"
+  },
+  "LandingAppointment": {
+    "description": "Auto imported from components/LandingAppointment.vue"
+  },
+  "LandingBlog": {
+    "description": "Auto imported from components/LandingBlog.vue"
+  },
+  "LandingHeader": {
+    "description": "Auto imported from components/LandingHeader.vue"
+  },
+  "LandingNavBar": {
+    "description": "Auto imported from components/LandingNavBar.vue"
+  },
+  "SearchResult": {
+    "description": "Auto imported from components/SearchResult.vue"
+  }
+}
