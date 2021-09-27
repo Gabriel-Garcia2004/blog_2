@@ -11,6 +11,10 @@
 </template>
 
 <style scoped>
+ @font-face {
+   font-family: Telegraf-Regular;
+   src: url(./assets/tipografia/Telegraf-Regular.otf);
+ }
 .l-Blog{
   display: grid;
   grid-template-columns: 70% 30% ;

@@ -19,7 +19,7 @@
       </div>
     </div>
     <div class="about__personal-data">
-      <h3 class="about__data-title">{{ $t("Societies") }}</h3>
+     
 
       <ul class="about__data">
         <li class="about__soci">
@@ -31,7 +31,7 @@
         </li>
         <li class="about__soci">
           <p class="about__text--soci">
-                        {{ $t("Esn") }}
+                        {{ $t("Ens") }}
 
           </p>
            <img class="about__img__s" src="../assets/ens.jpeg" alt="" srcset="" />

@@ -86,7 +86,7 @@ export default {
               headerText: 'Cuidar das unhas e pele é cuidar de si mesmo, agende uma consulta e vamos resgatar o que há de melhor em você.',
               headerButton: 'Agendar',
               aboutMe: 'Sobre mim',
-              lanAboutText:  'Olá, sou dermatologista (CRMRJ 52-0109245-6 / RQE 34414) e estou especializado em doenças das unhas e procedimentos de estética. Atendo presencialmente pacientes no meu consultório no Rio de Janeiro, e por telemedicina na Brasil e fora do país (atendo em português, espanhol e inglês).',
+              lanAboutText:  'Olá, sou dermatologista (CRMRJ 52-0109245-6 / RQE 34414) e estou especializado em doenças das unhas e procedimentos de estética. Atualmente trabalho como o preceptor do Ambulatório de Doenças das Unhas do serviço de Dermatologia do Hospital Universitário Pedro Ernesto - UERJ, e estou envolvido ativamente em pesquisa clínica e revisão de artigos científicos para revistas científicas internacionais. Atendo presencialmente pacientes no meu consultório no Rio de Janeiro, e por telemedicina no Brasil e fora do país (português, espanhol e inglês).',
               lanAboutLink: 'Saber mais →',
               LanAppointmentTitle: 'Dermatologista - Miguel Ceccarelli',
               LanAppointmentText: 'Ciência dermatológica para o cuidado de suas unhas, pele e cabelo.',
@@ -104,9 +104,9 @@ export default {
               UsefulLinks: 'Links úteis',
               Schedules: 'Agendamentos',
               PrivacyPolicy: 'Política de privacidade',
-              Societies: 'Sociedades das quais participo',
-              Eadv: 'Membro da academia europeia de dermatologia e venereologia',
-              Esn: 'Membro da sociedade europeia da unha',
+
+              Eadv: 'Membro da European Academy of Dermatology and Venereology',
+              Esn: 'Membro da European Nail Society',
             Sbd: 'Membro da Sociedade Brasileira de Dermatologia '
             },
 
@@ -138,10 +138,9 @@ export default {
               UsefulLinks: 'Useful links',
               Schedules: 'Schedules',
               PrivacyPolicy: 'Privacy Policy',
-              Societies: 'Societies in which I participate',
               Eadv: 'Member of the European Academy of Dermatology and Venereology',
               Ens: 'Member of the European Nail Society',
-              Sbd: 'Member of the Brazilian Society of Dermatology'
+              Sbd: 'Member of the Sociedade Brasileira de Dermatologia'
             },
             es: {
               about: 'Sobre',
@@ -151,7 +150,7 @@ export default {
               dermatologist: 'Dermatólogo',
               lanHTitle2: 'en Rio de Janeiro',
               headerText: 'Cuidamos de tu piel, uñas y cabellos. Permítame ser su guía para una piel saludable y feliz.',
-              headerButton: 'Programar',
+              headerButton: 'Agendar',
               aboutMe: 'Sobre mí',
               lanAboutText: 'Hola, soy un dermatólogo certificado por la Sociedad Brasileña de Dermatología (CRMRJ 52-0109245-6 / RQE 34414) y estoy especializado en enfermedades de la piel, uñas y cabello, así como procedimientos cosméticos. Atiendo pacientes en mi consultorio en Rio de Janeiro, y por telemedicina en Brasil y en el exterior (atiendo en portugués, español e inglés).',
               lanAboutLink: 'saber mas →',
@@ -172,9 +171,9 @@ export default {
               Schedules: 'Horarios',
               PrivacyPolicy: 'Política de privacidad',
               Societies: 'Sociedades en las que participo',
-              Eadv: 'Miembro de la Academia Europea de Dermatología y Venereología.',
+              Eadv: 'Miembro de la European Academy of Dermatology and Venereology.',
               Esn: 'Miembro de la European Nail Society',
-              Sbd: 'Miembro de la Sociedad Brasileña de Dermatología'
+              Sbd: 'Miembro de la Sociedade Brasileira de Dermatologia'
 
             }
           }

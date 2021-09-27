@@ -9,6 +9,10 @@
   </section> 
 </template>
 <style >
+ @font-face {
+   font-family: Telegraf-Regular;
+   src: url(./assets/tipografia/Telegraf-Regular.otf);
+ }
  *{
    padding: 0;
    margin: 0;
