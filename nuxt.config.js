@@ -281,5 +281,8 @@ export default {
 
   generate: {
     crawler: false // default - true
+  },
+  generate: {
+    dir: 'public'
   }
 };
