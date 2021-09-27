@@ -21,11 +21,30 @@
     <div class="about__personal-data">
       <h3 class="about__data-title">{{ $t("Societies") }}</h3>
 
-      <div class="about__data">
-        <img class="about__img__s" src="../assets/sbd.png" alt="" srcset="" />
-        <img class="about__img__s" src="../assets/ens.jpeg" alt="" srcset="" />
-        <img class="about__img_s+" src="../assets/eadv.png" alt="" srcset="" />
-      </div>
+      <ul class="about__data">
+        <li class="about__soci">
+          <p class="about__text--soci">
+                        {{ $t("Sbd") }}
+
+          </p>
+          <img class="about__img__s" src="../assets/sbd.png" alt="" srcset="" />
+        </li>
+        <li class="about__soci">
+          <p class="about__text--soci">
+                        {{ $t("Esn") }}
+
+          </p>
+           <img class="about__img__s" src="../assets/ens.jpeg" alt="" srcset="" />
+
+        </li>
+        <li class="about__soci">
+          <p class="about__text--soci">
+            {{ $t("Eadv") }}
+          </p>
+                  <img class="about__img__s" src="../assets/eadv.png" alt="" srcset="" />
+
+        </li>
+      </ul>
     </div>
   </section>
 </template>
@@ -72,6 +91,7 @@ export default {
   letter-spacing: 0em;
   text-align: center;
 }
+
 .about__link {
   font-size: 0.9rem;
   font-style: normal;
@@ -112,6 +132,7 @@ export default {
   align-items: center;
   padding: 10px;
   gap: 5px;
+  list-style: none;
 }
 .about__data-title {
   font-size: 1.875rem;
@@ -129,11 +150,17 @@ export default {
   letter-spacing: 0em;
 }
 .about__img__s {
-  max-width: 400px;
+  max-width: 100%;
 }
-.about__img_s + {
-  max-width: 500px;
+.about__text--soci {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 0em;
+  text-align: center;
 }
+
 @media (min-width: 768px) {
   .about__content {
     background: #7a695f;
@@ -153,12 +180,28 @@ export default {
   .about__title {
     text-align: initial;
   }
-  .about__data {
-    flex-direction: row;
-    align-items: center;
-  }
+
   .about__data-title {
     font-size: 2.5rem;
   }
+}
+@media (min-width: 900px) {
+    .about__data {
+    flex-direction: row;
+    
+
+  }
+  .about__soci{
+       height: 320px;
+  display: grid; 
+align-items: center;
+  }
+.about__img__s {
+  display: grid;
+  margin: 0 auto;
+}
+.about__text--soci {
+  align-self: flex-start;
+}
 }
 </style>

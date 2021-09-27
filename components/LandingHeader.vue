@@ -2,7 +2,7 @@
   <header class="header">
     <div class="header__content">
       <ul class="header__item">
-        <li class="header__list">
+        <!-- <li class="header__list">
           <a href="#about" class="header__link">{{ $t('about') }}</a>
         </li>
         <li class="header__list">
@@ -11,13 +11,13 @@
         <li class="header__list">
           <a href="#appointment" class="header__link">{{ $t('contact') }}</a>
         </li>
-        <div class="translate">
-        <nuxt-link class="translate__lang"
+        <li class="header__list"> -->
+          <p class="header__translate">Traduções:         <nuxt-link class="header__link--translate"
   v-for="locale in availableLocales"
   :key="locale.code"
-  :to="switchLocalePath(locale.code)">{{ locale.name }}</nuxt-link>
-        </div>
+  :to="switchLocalePath(locale.code)">{{ locale.name }}</nuxt-link></p>
 
+      
 
       </ul>
       <NuxtLink :to="localePath('/blog')">
@@ -130,7 +130,7 @@ export default {
 .header__item {
   list-style: none;
   display: flex;
-  padding: 0.9375rem;
+  padding: 1.25rem;
   grid-area: nav;
   align-items: center;
 }
@@ -250,24 +250,27 @@ min-width: 200px;
 .header__link--img:hover {
   opacity: 0.6;
 }
-.translate{
+.header__translate{
   display: flex;
-  flex-direction: column;
-  position: relative;
-
-}
-.translate__lang{
-  color: #fff;
-  font-size: 1.125rem;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin: 10px;
+    font-size: 1.125rem;
   font-style: normal;
   font-weight: 400;
   line-height: 2rem;
   letter-spacing: 0em;
-  text-align: center;
-  position: relative;
-  top: 15px;
-  left: 15px;
-  z-index: 100;
+}
+.header__link--translate{
+  font-family: Telegraf-Regular  ;
+  text-decoration: none;
+  font-size: 1.125rem;
+  color: #fde6dc;
+  transition: 0.4s ease-in-out;
+}
+.header__link--translate:hover {
+  color: #e9cdc1;
 }
 @media (min-width: 768px) {
   .header {
