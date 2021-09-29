@@ -96,6 +96,10 @@
                </NuxtLink>
             </li>
           </ul>
+          <p class="header__translate">Traduções: <nuxt-link class="header__link--translate"
+  v-for="locale in availableLocales"
+  :key="locale.code"
+  :to="switchLocalePath(locale.code)">{{ locale.name }}</nuxt-link></p>
           <ul class="info-bar__item--mobile">
             <li class="info-bar__list">
               <a
@@ -178,7 +182,10 @@ export default {
   head: {
     link: [{ rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css' }],
   },
-
+computed: {
+  availableLocales () {
+    return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
+  }},
   methods: {
 
     onEnter: function () {
@@ -191,7 +198,8 @@ export default {
       nav.contains("active") ? nav.remove("active") : nav.add("active")
     }
   },
-};
+    
+}
 </script>
 
 <style scoped>
@@ -301,6 +309,31 @@ image {
   width: 40px;
   height: 40px;
 }
+.header__translate{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin: 10px;
+    font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 0em;
+  color: #fff;
+grid-area: translate;
+}
+.header__link--translate{
+  font-family: Telegraf-Regular  ;
+  text-decoration: none;
+  font-size: 1.125rem;
+  color: #fff;
+  transition: 0.4s ease-in-out;
+}
+.header__link--translate:hover {
+  color: #e9cdc1;
+}
 
 @media (max-width: 600px) {
   .info-bar__item {
@@ -323,9 +356,9 @@ image {
     height: 100vh;
         transition: 600ms ease-in-out all;
             display: grid;
-    grid-template-rows: 10% 75% 5% 10%;
+    grid-template-rows: 18% 70% 2% 10%;
     grid-template-areas:
-      "."
+      "translate"
       "menu"
       "."
       "links";
@@ -333,9 +366,9 @@ image {
   }
   .menu-mobile__container.active {
     display: grid;
-    grid-template-rows: 10% 75% 5% 10%;
+    grid-template-rows: 18% 70% 2% 10%;
     grid-template-areas:
-      "."
+      "translate"
       "menu"
       "."
       "links";

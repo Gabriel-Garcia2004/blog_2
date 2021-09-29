@@ -272,6 +272,14 @@ min-width: 200px;
 .header__link--translate:hover {
   color: #e9cdc1;
 }
+@media (max-width:500px) {
+  .header__img{
+    display: none;
+  }
+  .header__translate{
+    margin: 10px auto;
+  }
+}
 @media (min-width: 768px) {
   .header {
     background: #404041;

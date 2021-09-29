@@ -1,5 +1,6 @@
 <template>
   <footer class="footer">
+
     <div class="footer__container">
       <div class="footer__box">
         <img src="~/assets/logo.svg" alt="Logo Miguel Ceccarelli" />
@@ -147,6 +148,7 @@ display: flex;
   color: #d9dbe1;
   text-decoration: underline;
 }
+
 @media (min-width:768px) {
     .footer__container{
         display: flex;

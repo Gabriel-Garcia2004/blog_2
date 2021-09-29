@@ -106,7 +106,7 @@ export default {
               PrivacyPolicy: 'Política de privacidade',
 
               Eadv: 'Membro da European Academy of Dermatology and Venereology',
-              Esn: 'Membro da European Nail Society',
+              Ens: 'Membro da European Nail Society',
             Sbd: 'Membro da Sociedade Brasileira de Dermatologia '
             },
 
@@ -172,7 +172,7 @@ export default {
               PrivacyPolicy: 'Política de privacidad',
               Societies: 'Sociedades en las que participo',
               Eadv: 'Miembro de la European Academy of Dermatology and Venereology.',
-              Esn: 'Miembro de la European Nail Society',
+              Ens: 'Miembro de la European Nail Society',
               Sbd: 'Miembro de la Sociedade Brasileira de Dermatologia'
 
             }
