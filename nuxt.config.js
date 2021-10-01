@@ -105,9 +105,9 @@ export default {
               Schedules: 'Agendamentos',
               PrivacyPolicy: 'Política de privacidade',
 
-              Eadv: 'Membro da European Academy of Dermatology and Venereology',
-              Ens: 'Membro da European Nail Society',
-            Sbd: 'Membro da Sociedade Brasileira de Dermatologia '
+              Eadv: 'European Academy of Dermatology and Venereology',
+              Ens: 'European Nail Society',
+            Sbd: 'Sociedade Brasileira de Dermatologia '
             },
 
             en: {
@@ -138,9 +138,9 @@ export default {
               UsefulLinks: 'Useful links',
               Schedules: 'Schedules',
               PrivacyPolicy: 'Privacy Policy',
-              Eadv: 'Member of the European Academy of Dermatology and Venereology',
-              Ens: 'Member of the European Nail Society',
-              Sbd: 'Member of the Sociedade Brasileira de Dermatologia'
+              Eadv: 'European Academy of Dermatology and Venereology',
+              Ens: 'European Nail Society',
+              Sbd: 'Sociedade Brasileira de Dermatologia'
             },
             es: {
               about: 'Sobre',
@@ -171,9 +171,9 @@ export default {
               Schedules: 'Horarios',
               PrivacyPolicy: 'Política de privacidad',
               Societies: 'Sociedades en las que participo',
-              Eadv: 'Miembro de la European Academy of Dermatology and Venereology.',
-              Ens: 'Miembro de la European Nail Society',
-              Sbd: 'Miembro de la Sociedade Brasileira de Dermatologia'
+              Eadv: 'European Academy of Dermatology and Venereology.',
+              Ens: 'European Nail Society',
+              Sbd: 'Sociedade Brasileira de Dermatologia'
 
             }
           }

@@ -20,5 +20,4 @@ You can directly use them in pages and other components without the need to impo
 - `<LandingAppointment>` | `<landing-appointment>` (components/LandingAppointment.vue)
 - `<LandingBlog>` | `<landing-blog>` (components/LandingBlog.vue)
 - `<LandingHeader>` | `<landing-header>` (components/LandingHeader.vue)
-- `<LandingNavBar>` | `<landing-nav-bar>` (components/LandingNavBar.vue)
 - `<SearchResult>` | `<search-result>` (components/SearchResult.vue)

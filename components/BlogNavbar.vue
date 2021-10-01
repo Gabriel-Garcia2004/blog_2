@@ -96,7 +96,7 @@
                </NuxtLink>
             </li>
           </ul>
-          <p class="header__translate">Traduções: <nuxt-link class="header__link--translate"
+          <p class="header__translate"><nuxt-link class="header__link--translate"
   v-for="locale in availableLocales"
   :key="locale.code"
   :to="switchLocalePath(locale.code)">{{ locale.name }}</nuxt-link></p>

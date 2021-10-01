@@ -73,6 +73,8 @@ export default {
 }
 .appointment {
   background: #7a695f;
+	/* background: #404041; */
+    /* background: #808184; */
   color: #fff;
   display: flex;
   flex-direction: column;

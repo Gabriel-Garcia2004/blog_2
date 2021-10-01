@@ -23,25 +23,25 @@
 
       <ul class="about__data">
         <li class="about__soci">
+          <img class="about__img__s" src="../assets/sbd2.png" alt="" srcset="" />
           <p class="about__text--soci">
                         {{ $t("Sbd") }}
 
           </p>
-          <img class="about__img__s" src="../assets/sbd.png" alt="" srcset="" />
         </li>
         <li class="about__soci">
+           <img class="about__img__s" src="../assets/ens.jpeg" alt="" srcset="" />
           <p class="about__text--soci">
                         {{ $t("Ens") }}
 
           </p>
-           <img class="about__img__s" src="../assets/ens.jpeg" alt="" srcset="" />
 
         </li>
         <li class="about__soci">
+                  <img class="about__img__s" src="../assets/eadv.png" alt="" srcset="" />
           <p class="about__text--soci">
             {{ $t("Eadv") }}
           </p>
-                  <img class="about__img__s" src="../assets/eadv.png" alt="" srcset="" />
 
         </li>
       </ul>
@@ -109,12 +109,13 @@ export default {
   text-decoration: underline;
 }
 .about__personal-data {
-  background: #7a695f;
-  color: #fde6dc;
+    background: #404041;
 
+  color: #fde6dc;
   padding: 10px;
-  border-top: solid #404041 3px;
-  border-bottom: solid #404041 3px;
+  /* border-top: solid #404041 3px;
+  border-bottom: solid #404041 3px; */
+  
 }
 .about__container {
   display: grid;
@@ -133,6 +134,9 @@ export default {
   padding: 10px;
   gap: 5px;
   list-style: none;
+  max-width: 90%;
+  margin: 0 auto;
+
 }
 .about__data-title {
   font-size: 1.875rem;
@@ -149,6 +153,7 @@ export default {
   line-height: 1.625rem;
   letter-spacing: 0em;
 }
+
 .about__img__s {
   max-width: 100%;
 }
@@ -199,9 +204,11 @@ align-items: center;
 .about__img__s {
   display: grid;
   margin: 0 auto;
+  align-self: flex-end;
+
 }
 .about__text--soci {
-  align-self: flex-start;
+  align-self: flex-end;
 }
 }
 </style>

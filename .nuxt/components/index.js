@@ -14,7 +14,6 @@ export { default as LandingAbout } from '../../components/LandingAbout.vue'
 export { default as LandingAppointment } from '../../components/LandingAppointment.vue'
 export { default as LandingBlog } from '../../components/LandingBlog.vue'
 export { default as LandingHeader } from '../../components/LandingHeader.vue'
-export { default as LandingNavBar } from '../../components/LandingNavBar.vue'
 export { default as SearchResult } from '../../components/SearchResult.vue'
 
 export const LazyArticleContent = import('../../components/ArticleContent.vue' /* webpackChunkName: "components/article-content" */).then(c => wrapFunctional(c.default || c))
@@ -31,5 +30,4 @@ export const LazyLandingAbout = import('../../components/LandingAbout.vue' /* we
 export const LazyLandingAppointment = import('../../components/LandingAppointment.vue' /* webpackChunkName: "components/landing-appointment" */).then(c => wrapFunctional(c.default || c))
 export const LazyLandingBlog = import('../../components/LandingBlog.vue' /* webpackChunkName: "components/landing-blog" */).then(c => wrapFunctional(c.default || c))
 export const LazyLandingHeader = import('../../components/LandingHeader.vue' /* webpackChunkName: "components/landing-header" */).then(c => wrapFunctional(c.default || c))
-export const LazyLandingNavBar = import('../../components/LandingNavBar.vue' /* webpackChunkName: "components/landing-nav-bar" */).then(c => wrapFunctional(c.default || c))
 export const LazySearchResult = import('../../components/SearchResult.vue' /* webpackChunkName: "components/search-result" */).then(c => wrapFunctional(c.default || c))

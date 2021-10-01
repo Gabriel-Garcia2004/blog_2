@@ -41,9 +41,6 @@
   "LandingHeader": {
     "description": "Auto imported from components/LandingHeader.vue"
   },
-  "LandingNavBar": {
-    "description": "Auto imported from components/LandingNavBar.vue"
-  },
   "SearchResult": {
     "description": "Auto imported from components/SearchResult.vue"
   }

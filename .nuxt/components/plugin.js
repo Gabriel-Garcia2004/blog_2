@@ -16,7 +16,6 @@ const components = {
   LandingAppointment: () => import('../../components/LandingAppointment.vue' /* webpackChunkName: "components/landing-appointment" */).then(c => wrapFunctional(c.default || c)),
   LandingBlog: () => import('../../components/LandingBlog.vue' /* webpackChunkName: "components/landing-blog" */).then(c => wrapFunctional(c.default || c)),
   LandingHeader: () => import('../../components/LandingHeader.vue' /* webpackChunkName: "components/landing-header" */).then(c => wrapFunctional(c.default || c)),
-  LandingNavBar: () => import('../../components/LandingNavBar.vue' /* webpackChunkName: "components/landing-nav-bar" */).then(c => wrapFunctional(c.default || c)),
   SearchResult: () => import('../../components/SearchResult.vue' /* webpackChunkName: "components/search-result" */).then(c => wrapFunctional(c.default || c))
 }
 
