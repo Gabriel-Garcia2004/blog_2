@@ -30,7 +30,11 @@ export default {
   ],
 
   googleAnalytics: {
-    id: 'UA-12301-2'
+    id: 'UA-207899148-1',
+    autoTracking: {
+      screenview: true
+    },
+    router 
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
