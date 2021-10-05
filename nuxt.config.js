@@ -33,8 +33,7 @@ export default {
     id: 'UA-207899148-1',
     autoTracking: {
       screenview: true
-    },
-    router 
+    }
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
